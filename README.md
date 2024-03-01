@@ -1,4 +1,14 @@
-# Finetune model
+# First clone the repo
+```bash
+git clone git@github.com:ARG-NCTU/Llama-2-finetune.git
+```
+
+# Pull and run the docker image
+```bash
+source docker_run.sh
+```
+
+# Finetune the model
 ```bash
 cd ~/Llama-2-finetune/llama-recipes
 ```
