@@ -95,6 +95,16 @@ RUN pip3 install transformers \
 RUN pip3 install roma
 RUN pip3 install jupyter 
 RUN pip3 install ipytest
+
+##################################### llama-recipes #####################################
+RUN git clone https://github.com/ARG-NCTU/llama-recipes.git ${HOME}/llama-recipes
+RUN cd ${HOME}/llama-recipes \
+    && pip install -U pip setuptools \
+    && pip install --extra-index-url https://download.pytorch.org/whl/test/cu118 -e .
+
+##################################### wandb #####################################
+RUN pip install wandb
+
 ##################################### setting ###################################################
 
 RUN chown -R ${USER}:${USER} ${HOME}/
