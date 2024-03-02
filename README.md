@@ -19,13 +19,7 @@ link: http://gofile.me/773h8/uYom43iVm
 Enter the Downloads directory.Extract the zip file: unzip llama-2-7b-pretrained-hf.zip (10.7G)
 Put it in the same directory as this notebook.
 The tree directory will be like:
-.
-├── Docker
-├── docker_join.sh -> Docker/docker_join.sh
-├── docker_run.sh -> Docker/docker_run.sh
-├── llama-2-7b-pretrained-hf
-├── llama-recipes
-└── README.md
+![Tree Dir](img/tree_dir.png)
 
 
 # Pull and run the docker image
