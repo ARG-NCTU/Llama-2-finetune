@@ -18,7 +18,9 @@ Downlaod hugging face model pretrained weight from NAS.
 
 Link: http://gofile.me/773h8/uYom43iVm
 
-Enter the Downloads directory.Extract the zip file: unzip llama-2-7b-pretrained-hf.zip (10.7G)
+Enter the Downloads directory. 
+
+Extract the zip file: unzip llama-2-7b-pretrained-hf.zip (10.7G)
 
 Put it in the same directory as this README file.
 
