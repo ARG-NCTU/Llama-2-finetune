@@ -13,6 +13,7 @@ git submodule update --init --recursive
 cd Llama-2-finetune
 ```
 
+# Download the pretrained model weights
 Downlaod hugging face model pretrained weight from NAS.
 link: http://gofile.me/773h8/uYom43iVm
 Enter the Downloads directory.Extract the zip file: unzip llama-2-7b-pretrained-hf.zip (10.7G)
