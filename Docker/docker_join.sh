@@ -5,7 +5,7 @@
 
 BASH_OPTION=bash
 
-IMG=argnctu/llama-2:facebookresearch
+IMG=argnctu/llama2:gpu
 
 xhost +
 containerid=$(docker ps -aqf "ancestor=${IMG}") && echo $containerid

@@ -63,5 +63,5 @@ docker run \
     --privileged \
     --security-opt seccomp=unconfined \
     $DOCKER_OPTS \
-    argnctu/llama-2:facebookresearch \
+    argnctu/llama2:gpu \
     $BASH_OPTION

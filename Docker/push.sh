@@ -1,2 +1,2 @@
 docker login
-docker image push argnctu/llama-2:facebookresearch
+docker image push argnctu/llama2:gpu

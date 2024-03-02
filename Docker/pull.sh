@@ -1,1 +1,1 @@
-docker image pull argnctu/llama-2:facebookresearch
+docker image pull argnctu/llama2:gpu
